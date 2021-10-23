@@ -1342,7 +1342,7 @@ body._lock {
 /* оболочка картинки */
 
 .slider-main__image {
-	padding: 0 0 59.1% 0;
+	padding: 0 0 74% 0;
 }
 
 .image {
@@ -1566,15 +1566,15 @@ body._lock {
 
 /* 7 */
 
-.item-product__label--sale {
+/* .item-product__label--sale {
 	background: #e97171;
-}
+} */
 
 /* 8 */
 
-.item-product__label--new {
+/* .item-product__label--new {
 	background: #2ec1ac;
-}
+} */
 
 /* 9 */
 
@@ -1775,7 +1775,7 @@ body._lock {
 /* 6 */
 
 .rooms__button {
-	background: #e89f71;
+	/* background: #e89f71; */
 	color: snow;
 	min-width: 180px;
 }
@@ -1931,7 +1931,7 @@ body._lock {
 }
 
 .slider-arrow--white {
-	background: rgba(255, 255, 255, 0.45);
+	background: rgba(255, 255, 255, 0);
 }
 
 /* 21 */
@@ -1978,7 +1978,7 @@ body._lock {
 /* 5 */
 
 .slider-tips__image {
-	padding: 0 0 64.2% 0;
+	padding: 0 0 50% 0;
 }
 
 /* 6 */

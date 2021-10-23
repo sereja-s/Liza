@@ -936,15 +936,15 @@ if (document.querySelector('.slider-rooms__body')) {
 
 		/* поток */
 		effect: 'coverflow', // установить slidesPerView: 3
-		/* Дополнение к 'cube' */
+		/* Дополнение к 'coverflow' */
 		coverflowEffect: {
 			/* угол */
-			slideShadows: true,
+			slideShadows: false,
 			rotate: 20,
 			/* наложение */
 			stretch: 50,
 			/* тень */
-			slideShadows: true,
+			slideShadows: false,
 		},
 
 		loop: true,
@@ -983,9 +983,9 @@ if (document.querySelector('.slider-tips__body')) {
 		cubeEffect: {
 			/* тень */
 			slideShadows: true,
-			shadow: true,
+			shadow: false,
 			shadowOffset: 20,
-			shadowScale: 0.94,
+			shadowScale: 0.5,
 		},
 
 		loop: true,
