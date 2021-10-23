@@ -892,7 +892,18 @@ if (document.querySelector('.slider-main__body')) {
 		slidesPerView: 1,
 		spaceBetween: 32,
 		watchOverflow: true,
-		speed: 800,
+		speed: 3000,
+
+		/* переворот */
+		effect: 'flip',
+		/* Дополнение к 'flip' */
+		flipEffect: {
+			/* тень */
+			slideShadows: true,
+			/* показ толькоа активного слайда */
+			limitRotation: true
+		},
+
 		loop: true,
 		loopAdditionalSlides: 5,
 		preloadImages: false,
@@ -921,7 +932,21 @@ if (document.querySelector('.slider-rooms__body')) {
 		slidesPerView: 'auto',
 		spaceBetween: 24,
 		watchOverflow: true,
-		speed: 800,
+		speed: 2000,
+
+		/* поток */
+		effect: 'coverflow', // установить slidesPerView: 3
+		/* Дополнение к 'cube' */
+		coverflowEffect: {
+			/* угол */
+			slideShadows: true,
+			rotate: 20,
+			/* наложение */
+			stretch: 50,
+			/* тень */
+			slideShadows: true,
+		},
+
 		loop: true,
 		loopAdditionalSlides: 5,
 		preloadImages: false,
@@ -947,10 +972,22 @@ if (document.querySelector('.slider-tips__body')) {
 	new Swiper('.slider-tips__body', {
 		observer: true,
 		observeParents: true,
-		slidesPerView: 3,
+		slidesPerView: 1,
 		spaceBetween: 32,
 		watchOverflow: true,
-		speed: 800,
+		speed: 3000,
+
+		/* 3-D КУБ */
+		effect: 'cube', // настроить в css
+		/* Дополнение к 'cube' */
+		cubeEffect: {
+			/* тень */
+			slideShadows: true,
+			shadow: true,
+			shadowOffset: 20,
+			shadowScale: 0.94,
+		},
+
 		loop: true,
 
 		// Dotts
@@ -966,15 +1003,15 @@ if (document.querySelector('.slider-tips__body')) {
 		},
 		breakpoints: {
 			320: {
-				slidesPerView: 1.1,
+				slidesPerView: 1,
 				spaceBetween: 15,
 			},
 			768: {
-				slidesPerView: 2,
+				slidesPerView: 1,
 				spaceBetween: 20,
 			},
 			992: {
-				slidesPerView: 3,
+				slidesPerView: 1,
 				spaceBetween: 32,
 			}
 		}
